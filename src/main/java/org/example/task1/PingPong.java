@@ -9,7 +9,7 @@ public class PingPong {
 
     private void start() {
         Thread ping = new Thread(() -> {
-            while (true){
+            while (true) {
                 try {
                     printWord();
                 } catch (InterruptedException e) {
@@ -20,7 +20,7 @@ public class PingPong {
         ping.start();
 
         Thread pong = new Thread(() -> {
-            while (true){
+            while (true) {
                 try {
                     printWord();
                 } catch (InterruptedException e) {

@@ -19,6 +19,7 @@ public class Counter {
     }
 
     public long incrementAndGet(long increment) {
+
         try {
             lock.lock();
             this.value += increment;

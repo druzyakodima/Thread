@@ -1,6 +1,6 @@
 package org.example.task2;
 
-public class ThreadCounter  implements Runnable{
+public class ThreadCounter implements Runnable {
 
     private final Counter counter1;
     private final Counter counter2;
