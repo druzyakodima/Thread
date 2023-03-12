@@ -4,7 +4,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ConcurrentCounter {
-
     private static final int ITERATIONS = 100;
 
     public static void main(String[] args) throws InterruptedException {
